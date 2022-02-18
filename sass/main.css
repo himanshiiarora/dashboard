@@ -43,22 +43,22 @@ body .content_dashboard {
 }
 
 body .content_dashboard h3 {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 body .content_dashboard h2 {
-  font-size: 22px;
+  font-size: 16px;
   margin: 0;
 }
 
 body .content_dashboard h1 {
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 body .content_dashboard .greyy {
   color: #7B7A79;
-  font-size: 0.875em;
-  margin-top: 0.4em;
+  font-size: 0.65em;
+  margin-top: 0.3em;
 }
 
 body .content_dashboard #navbar {
@@ -91,6 +91,7 @@ body .content_dashboard #navbar {
 body .content_dashboard #navbar img {
   margin: 1em;
   margin-bottom: 3em;
+  width: 1.4em;
 }
 
 body .content_dashboard #navbar .se_1, body .content_dashboard #navbar .se_2 {
@@ -122,10 +123,10 @@ body .content_dashboard #upp {
 
 body .content_dashboard #upp .upcoming_box {
   background-color: #ffffff;
-  width: 26em;
-  height: 18em;
+  width: 22em;
+  height: 15em;
   border-radius: 1.25em;
-  padding: 0.2em;
+  padding: 0.1em;
   margin: 0px;
   -webkit-box-shadow: 0 0 5px gray;
           box-shadow: 0 0 5px gray;
@@ -154,10 +155,11 @@ body .content_dashboard #upp .upcoming_box .detail {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-bottom: -10px;
+  margin-top: -1em;
 }
 
 body .content_dashboard #upp .upcoming_box .detail .star {
-  margin-left: 2.5em;
+  margin-left: 2em;
   border: 0.5px solid #EEEEEE;
   border-radius: 4px;
 }
@@ -216,8 +218,8 @@ body .content_dashboard #upp .upcoming_box .but {
 }
 
 body .content_dashboard #upp .upcoming_box .but .button_enter {
-  width: 17.18em;
-  height: 3em;
+  width: 15em;
+  height: 2.5em;
   border: 0px;
   border-radius: 1.5em;
   color: #ffffff;
@@ -225,7 +227,7 @@ body .content_dashboard #upp .upcoming_box .but .button_enter {
   background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);
   -webkit-box-shadow: 0px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
           box-shadow: 0px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
-  font-size: 0.875em;
+  font-size: 0.85em;
 }
 
 body .content_dashboard #on {
@@ -240,7 +242,7 @@ body .content_dashboard #on h1 {
 }
 
 body .content_dashboard #on .hea_one {
-  padding-left: 1.2em;
+  padding-left: 0.5em;
 }
 
 body .content_dashboard #on .see {
@@ -269,15 +271,15 @@ body .content_dashboard #on .on_content {
 }
 
 body .content_dashboard #on .on_content .galvus {
-  width: 21.3em;
+  width: 19em;
   height: 5.8em;
   padding: 1em;
   margin: 0.5em;
-  border-radius: 18px;
+  border-radius: 13px;
   background: #FFFFFF;
   -webkit-box-shadow: 1px 10px 23px #EBEEF2;
           box-shadow: 1px 10px 23px #EBEEF2;
-  font-size: 1.1em;
+  font-size: 0.8em;
   line-height: 2em;
 }
 
@@ -323,15 +325,15 @@ body .content_dashboard #on .sec-content .report_content {
 }
 
 body .content_dashboard #on .sec-content .report_content .blood-test {
-  width: 23em;
+  width: 22em;
   height: 6em;
   padding: 1em;
   margin: 0.5em;
-  border-radius: 18px;
+  border-radius: 13px;
   background: #FFFFFF;
   -webkit-box-shadow: 1px 10px 23px #EBEEF2;
           box-shadow: 1px 10px 23px #EBEEF2;
-  font-size: 1.1em;
+  font-size: 0.8em;
   line-height: 2em;
 }
 
@@ -353,25 +355,25 @@ body .content_dashboard #on .sec-content .report_content .blood-test .share {
 }
 
 body .content_dashboard #on .sec-content .report_content .blood-test .share h2 {
-  width: 15em;
+  width: 16em;
 }
 
 body .content_dashboard #on .sec-content .vital_content {
   padding: 1em;
   margin: 0.5em;
-  border-radius: 18px;
+  border-radius: 13px;
   background: #FFFFFF;
   -webkit-box-shadow: 1px 10px 23px #EBEEF2;
           box-shadow: 1px 10px 23px #EBEEF2;
-  font-size: 1.1em;
+  font-size: 0.8em;
   line-height: 2em;
-  width: 14.5em;
+  width: 15.5em;
   height: 18.8em;
   line-height: 1.3em;
 }
 
 body .content_dashboard #on .sec-content .vital_content h2 {
-  margin: 0.1em;
+  margin: 0.2em;
   margin-left: 0;
 }
 
@@ -396,13 +398,13 @@ body .content_dashboard #on .sec-content .vital_content .lin {
 body .content_dashboard #on .sec-content .prescription_content {
   padding: 1em;
   margin: 0.5em;
-  border-radius: 18px;
+  border-radius: 13px;
   background: #FFFFFF;
   -webkit-box-shadow: 1px 10px 23px #EBEEF2;
           box-shadow: 1px 10px 23px #EBEEF2;
-  font-size: 1.1em;
+  font-size: 0.8em;
   line-height: 2em;
-  width: 20em;
+  width: 18em;
   height: 2em;
 }
 

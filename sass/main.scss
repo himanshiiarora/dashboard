@@ -7,10 +7,10 @@
 @mixin basic{
     padding: 1em;
     margin: 0.5em;
-    border-radius: 18px;
+    border-radius: 13px;
     background: #FFFFFF;
     box-shadow: 1px 10px 23px #EBEEF2;
-    font-size: 1.1em;
+    font-size: 0.8em;
     line-height: 2em;
 }
 body{
@@ -39,19 +39,19 @@ body{
         grid-template-areas: 
         'navbar upp on on on';
         h3{
-            font-size: 18px;
+            font-size: 15px;
         }
         h2{
-            font-size: 22px;
+            font-size: 16px;
             margin: 0;
         }
         h1{
-            font-size: 2em;
+            font-size: 1.4em;
         }
         .greyy{
             color: #7B7A79;
-            font-size: 0.875em;
-            margin-top: 0.4em;
+            font-size: 0.65em;
+            margin-top: 0.3em;
         }
         #navbar{
             grid-area: navbar;
@@ -64,6 +64,7 @@ body{
             img{
                 margin: 1em;
                 margin-bottom: 3em;
+                width: 1.4em;
             }
             .se_1 , .se_2{
                 @include disp;
@@ -75,10 +76,10 @@ body{
             grid-area: upp;
             .upcoming_box{
                 background-color: #ffffff;
-                width: 26em;
-                height: 18em;
+                width: 22em;
+                height: 15em;
                 border-radius: 1.25em;
-                padding: 0.2em;
+                padding: 0.1em;
                 margin: 0px;
                 box-shadow: 0 0 5px gray;
                 h3{
@@ -89,8 +90,9 @@ body{
                     align-items: flex-start;
                     justify-content: flex-start;
                     margin-bottom: -10px;
+                    margin-top: -1em;
                     .star{
-                        margin-left:2.5em;
+                        margin-left:2em;
                         border: 0.5px solid #EEEEEE;
                         border-radius: 4px;
                     }
@@ -113,14 +115,14 @@ body{
                     justify-content: center;
                     padding-top: 0.6em;
                     .button_enter{
-                        width: 17.18em;
-                        height: 3em;
+                        width: 15em;
+                        height: 2.5em;
                         border: 0px;
                         border-radius: 1.5em;
                         color: #ffffff;
                         background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);
                         box-shadow: 4.24544e-16px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);
-                        font-size: 0.875em;
+                        font-size: 0.85em;
                     }
                 }
             }
@@ -131,7 +133,7 @@ body{
                 margin-left: 0.5em;
             }
             .hea_one{
-                padding-left: 1.2em;
+                padding-left: 0.5em;
             }
             .see{
                 float: right;
@@ -143,7 +145,7 @@ body{
                 @include disp;
                 justify-content: space-evenly;
                 .galvus{
-                    width: 21.3em;
+                    width: 19em;
                     height: 5.8em;
                     @include basic;
                 }
@@ -157,12 +159,12 @@ body{
                     justify-content: space-evenly;
                     flex-direction: column;
                     .blood-test{
-                        width: 23em;
+                        width: 22em;
                         height: 6em;
                         @include basic;
                         .share{
                             h2{
-                                width: 15em;
+                                width: 16em;
                             }
                             @include disp;
                             justify-content: space-between;
@@ -171,11 +173,11 @@ body{
                 }
                 .vital_content{
                     @include basic;
-                    width: 14.5em;
+                    width: 15.5em;
                     height: 18.8em;
                     line-height: 1.3em;
                     h2{
-                        margin: 0.1em;
+                        margin: 0.2em;
                         margin-left: 0;
                     }
                     .lin{
@@ -186,7 +188,7 @@ body{
                 }
                 .prescription_content{
                     @include basic;
-                    width: 20em;
+                    width: 18em;
                     height: 2em;
                 }
             }
