@@ -214,7 +214,7 @@ body .content_dashboard #upp .upcoming_box .but {
       -ms-flex-pack: center;
           justify-content: center;
   justify-content: center;
-  padding-top: 0.6em;
+  padding-top: 0.75em;
 }
 
 body .content_dashboard #upp .upcoming_box .but .button_enter {
