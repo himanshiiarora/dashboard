@@ -228,6 +228,7 @@ body{
             'navbar navbar on on on';
             #navbar{
                 grid-area: navbar;
+                height: 100%;
             }
             #upp{
                 grid-area: upp;
@@ -237,12 +238,32 @@ body{
                 justify-content: space-evenly;
                 flex-direction: column;
                 .upcoming_box{
-                    width: 25em;
-                    height: 17em;
+                    width: 22em;
+                    height: 15em;
+                    margin-left: 1.5em;
                 }
             }
             #on{
                 grid-area: on;
+                .on_content{
+                    .galvus{
+                        width: 25em;
+                        margin-left: 1.5em;
+                    }
+                }
+                .sec-content{
+                    .report_content{
+                        .blood-test{
+                            width: 25em;
+                        }
+                    }
+                    .vital_content{
+                        width: 25em;
+                    }
+                    .prescription_content{
+                        width: 25em;
+                    }
+                }
             }
         }
         .top_bar{

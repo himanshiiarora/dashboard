@@ -464,6 +464,7 @@ body .content_dashboard #on .sec-content .prescription_content {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: navbar;
+    height: 100%;
   }
   body .content_dashboard #upp {
     -ms-grid-row: 1;
@@ -487,14 +488,28 @@ body .content_dashboard #on .sec-content .prescription_content {
             flex-direction: column;
   }
   body .content_dashboard #upp .upcoming_box {
-    width: 25em;
-    height: 17em;
+    width: 22em;
+    height: 15em;
+    margin-left: 1.5em;
   }
   body .content_dashboard #on {
     -ms-grid-row: 2;
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
     grid-area: on;
+  }
+  body .content_dashboard #on .on_content .galvus {
+    width: 25em;
+    margin-left: 1.5em;
+  }
+  body .content_dashboard #on .sec-content .report_content .blood-test {
+    width: 25em;
+  }
+  body .content_dashboard #on .sec-content .vital_content {
+    width: 25em;
+  }
+  body .content_dashboard #on .sec-content .prescription_content {
+    width: 25em;
   }
   body .top_bar {
     width: 30em;
