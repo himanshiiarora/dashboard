@@ -16,6 +16,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
     span{
         color: #1174EE;
     }
@@ -35,7 +36,6 @@ body{
     .content_dashboard{
         display: grid;
         grid-gap: 0.5em;
-        background-color: #FAFAFA;
         grid-template-areas: 
         'navbar upp on on on';
         h3{
